@@ -1,0 +1,15 @@
+{
+  "name": "nonyy-ssh",
+  "version": "0.1.0",
+  "author": "Tomasz Hamerla <tomasz.hamerla@outlook.com>",
+  "summary": "This is SSH module",
+  "license": "Apache-2.0",
+  "source": "https://github.com/nonyy/puppet-ssh",
+  "project_page": "https://github.com/nonyy/puppet-ssh",
+  "issues_url": "https://github.com/nonyy/puppet-ssh/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
