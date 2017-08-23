@@ -43,6 +43,8 @@
 # Copyright 2017 Your name here, unless otherwise noted.
 #
 class ssh {
-
+# -> indicates that this class has to be executed before the next class
+  class { 'ssh::install': } ->
+  class { 'ssh::service': } 
 
 }
